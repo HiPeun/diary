@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           floatingActionButton: FloatingActionButton(
-            child: Icon(Icons.create),
+            child: Icon(Icons.create,color: Colors.white,),
             backgroundColor: Colors.indigo,
             onPressed: () {
               showCreateDialog(diaryService);
